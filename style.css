@@ -1,0 +1,122 @@
+body {
+  width: 95%;
+  margin: 15px auto;
+}
+
+.flexbox {
+  display: flex;
+}
+
+
+/***************************
+HEADER 
+****************************/
+
+#header {
+  border: 2px solid black;
+  background-color: #ffb4b0;
+}
+
+#header li {
+  display: inline-block;
+}
+
+
+/**************************
+LEFT SIDE
+***************************/
+
+/***** entire box *****/
+
+#choices {
+  border: 2px solid black;
+  width: 23%;
+/*  height: 300px;*/
+/*  height: 100%;*/
+  margin: 15px auto 0 0;
+  padding: 12px;
+  background-color: #4dd7fa;
+  float: left;
+  box-model: border-box;
+}
+
+/***** length slider *****/
+
+input[type=range] {
+  margin-bottom: 15px;
+  width: 94%;
+}
+
+/***** artist and album *****/
+
+select {
+  margin-bottom: 15px;
+  width: 94%;
+  border: 2px solid black;
+  background: white;
+  height: 23px;
+}
+
+/***** genre *****/
+
+table {
+  margin-top 0;
+  margin-bottom: 15px;
+}
+
+.genre td {
+  line-height: 1.625em;
+}
+
+.genre input {
+  outline: 1px solid black;
+}
+
+span {
+  padding: 2px;
+}
+
+/***** filter button *****/
+
+.button {
+  text-align: center;
+}
+
+input[type=submit] {
+  margin-bottom: 10px;
+  border: 2px solid black;
+  width: 60%;
+  height: 23px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  font-size: .9em;
+}
+
+
+
+/*********************
+RIGHT SIDE
+**********************/
+
+#songinfo {
+  margin: 15px 0 0 auto;
+  border: 2px solid black;
+  width: 71%;
+/*  height: 385px;*/
+/*  height: 100%;*/
+  line-height: 1.38em;
+  float: right;
+  background-color: #FEFAC0;
+  box-model: border-box;
+}
+
+#songinfo li {
+  display: inline-block;
+  padding: 3px;
+}
+
+#songinfo h2 {
+  margin-left: 45px;
+  color: #785616;
+  font-weight: 400;
+}
