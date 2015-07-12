@@ -2,14 +2,24 @@ var artist = ["Beck", "Pink Floyd", "Coldplay", "NEEDTOBREATHE", "John Hiatt"];
 
 var album =["Odelay", "Morning Phase", "Dark Side Of The Moon", "The Wall", "Parachutes", "A Rush Of Blood To The Head", "The Heat", "The Outsiders", "Bring The Family" "Slow Turning"];
 
-var rock = "Rock"
+var beckSongsOdelay = ["Where It's At", "Hot Wax"];
 
-var pop = "Pop";
+var beckSongsMP = ["Morning", "Waking Light"];
 
-var blues = "Blues";
+var pkSongsDark = ["Breathe", "Time"];
 
-var classical = "Classical";
+var pkSongsWall = ["Hey You", "Comfortably Numb"];
 
-var jazz = "Jazz";
+var cpSongsPara = ["Trouble", "Everything's Not Lost"];
 
-var hipHop = "Hip Hop";
+var cpSongsRush = ["A Rush Of Blood To The Head", "Amsterdam"];
+
+var ntbSongsHeat = ["The Heat", "Washed By The Water"];
+
+var ntbSongsOut = ["These Hard Times", "Something Beautiful"];
+
+var jhSongsBring = ["Alone In The Dark", "Have A Little Faith In Me"];
+
+var jhSongsSlow = ["Icy Blue Heart", "Feels Like Raing"];
+
+var genre = ["Rock", "Pop", "Blues", "Classical", "Jazz", "Hip Hop"];
