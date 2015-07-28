@@ -26,7 +26,6 @@ $(document).ready(function() {
    
    var contentEl = $("#content");
 
-
    for (var i = 0; i < data.songs.length; i++) {
      var songData = "";
      var currentSong = data.songs[i];
@@ -35,12 +34,50 @@ $(document).ready(function() {
      songData += "</div>"
      songData += "<div class='songs'>";
      songData += "by " + currentSong.artist;
-     songData += " on the album " + currentSong.album;
+     songData += " on the album " + currentSong.album;    
      contentEl.append(songData);
+     $("#content").append("<button type='button' id='deleteButton'>Delete</button>");
+
+
    }
 
+    $("#deleteButton").click("this.songData", function() {
+        alert("goodbye");
+    })
+
+   })
+
+   $("#content").append("<button type='button' id='moreButton'>More</button>");
+
+   $("#moreButton").on("click", function() {
+      // alert("hello");
+
+    $.ajax({
+     url: "songs2.json"
+   }).done(function(data) {
+   
+   var contentEl2 = $("#content");
+
+   for (var i = 0; i < data.songs.length; i++) {
+     var songData2 = "";
+     var currentSong2 = data.songs[i];
+     songData2 += "<div class='songs'>";
+     songData2 += "<h2>" + currentSong2.name + "</h2>";
+     songData2 += "</div>"
+     songData2 += "<div class='songs'>";
+     songData2 += "by " + currentSong2.artist;
+     songData2 += " on the album " + currentSong2.album;    
+     contentEl2.append(songData2);
+     $("#content").append("<button id='deleteButton'>Delete</button>");
+   }
+   $("#content").append("<div id='moreDiv'><button id='moreButton' class='btn btn-success'>More</button>");
+
+   })    
+      
    })
 });
+
+
 
 
   

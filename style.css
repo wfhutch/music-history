@@ -124,6 +124,10 @@ RIGHT SIDE
   font-weight: 400;
 }
 
+#content h2:first-of-type {
+  font-weight: bold;
+}
+
 .songs {
   font-size: 1.1em;
   margin: 30px 30px 30px 30px;
@@ -139,5 +143,30 @@ RIGHT SIDE
 
 .songs:nth-of-type(2n+1) {
   background-color: #f5fffa;
+}
+
+#deleteButton {
+  width: 60px;
+  height: 20px;
+  margin: 0 0 10px 30px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+
+}
+
+/*#moreDiv {
+
+}*/
+
+#moreButton {
+  float: right;
+  margin-right: 30px;
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  background-color: #f1f1f1;
 }
 
