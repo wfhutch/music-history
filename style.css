@@ -119,54 +119,53 @@ RIGHT SIDE
 }
 
 #content h2 {
-  margin-left: 45px;
+  margin-left: 25px;
   color: #785616;
-  font-weight: 400;
-}
-
-#content h2:first-of-type {
   font-weight: bold;
 }
 
-.songs {
+.song-div {
   font-size: 1.1em;
   margin: 30px 30px 30px 30px;
 }
 
-.songs:first-child {
+.song-div:first-child {
   font-weight: 600;
 }
 
-.songs:nth-of-type(2n+0) {
+.song-div:nth-of-type(2n+0) {
   background-color: #fff5ee;
 }
 
-.songs:nth-of-type(2n+1) {
+.song-div:nth-of-type(2n+1) {
   background-color: #f5fffa;
 }
 
-#deleteButton {
-  width: 60px;
-  height: 20px;
+.song-info {
+  margin-left: 25px;
+}
+
+.deleteButton {
+  width: 65px;
+  height: 25px;
   margin: 0 0 10px 30px;
   border-radius: 10px;
-  background-color: #f1f1f1;
+  font-size: .8em;
+  color: #f1f1f1;
+  background-color: tomato;
 
 }
 
-/*#moreDiv {
-
-}*/
-
-#moreButton {
+.moreButton {
   float: right;
   margin-right: 30px;
   padding: 10px;
-  width: 100px;
+  width: 120px;
   height: 50px;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-top: 470px;
+  margin-bottom: 15px;
   font-size: 1em;
-  background-color: #f1f1f1;
+  background-color: #4dd7fa;
 }
 
